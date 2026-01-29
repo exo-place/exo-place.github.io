@@ -1,4 +1,4 @@
-# About
+# About exo
 
 exo-place builds biomes — non-infrastructure-dependent places to exist.
 
