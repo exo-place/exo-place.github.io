@@ -6,7 +6,7 @@ Behavioral rules for Claude Code in the PROJECT_NAME repository.
 
 PROJECT_DESCRIPTION
 
-Part of the [exo-place ecosystem](https://exo-place.github.io).
+Part of the [exo-place ecosystem](https://docs.exo.place).
 
 ## Architecture
 

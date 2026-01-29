@@ -30,4 +30,4 @@ Bind an entity to a Discord channel and it comes alive.
 ## Links
 
 - [GitHub](https://github.com/exo-place/hologram)
-- [Documentation](https://exo-place.github.io/hologram/)
+- [Documentation](https://docs.exo.place/hologram/)

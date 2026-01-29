@@ -2,7 +2,7 @@
 
 Places to exist. Non-infrastructure-dependent biomes for being.
 
-**https://exo-place.github.io**
+**https://docs.exo.place**
 
 ## Projects
 

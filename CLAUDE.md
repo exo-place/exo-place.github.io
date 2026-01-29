@@ -68,7 +68,7 @@ When a project has its own docs site, include a navbar link back to the main exo
 ```ts
 nav: [
   // ... other nav items
-  { text: 'exo', link: 'https://exo-place.github.io/' },
+  { text: 'exo', link: 'https://docs.exo.place/' },
 ]
 ```
 

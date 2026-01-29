@@ -12,8 +12,8 @@ export default defineConfig({
       {
         text: 'Docs',
         items: [
-          { text: 'Hologram', link: 'https://exo-place.github.io/hologram/' },
-          { text: 'Aspect', link: 'https://exo-place.github.io/aspect/' },
+          { text: 'Hologram', link: 'https://docs.exo.place/hologram/' },
+          { text: 'Aspect', link: 'https://docs.exo.place/aspect/' },
         ]
       },
     ],
