@@ -2,7 +2,7 @@
 
 exo-place builds biomes — non-infrastructure-dependent places to exist.
 
-Where [rhi](https://rhi.zone) is glue layer (infrastructure, tooling, the substrate), exo is about what you do with it: places, identities, worlds.
+Where [rhi](https://rhi.zone/about) is glue layer (infrastructure, tooling, the substrate), exo is about what you do with it: places, identities, worlds.
 
 ## Philosophy
 
