@@ -2,7 +2,9 @@
 
 Card-based existence and identity exploration sandbox.
 
-**Status:** Nascent
+::: info Status: Growing ◔
+~5.5K lines of TypeScript across 30 source files, with 3.2K lines of tests across 13 test files. Phases 1–2 complete: canvas-based graph editor, card/edge primitives, Y.js multiplayer, undo/redo, action system with JSONLogic, and world packs. Phases 3–4 (projection layer — rendering the graph as navigable place) not yet started.
+:::
 
 ## Core Concept
 

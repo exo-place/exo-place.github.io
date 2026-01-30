@@ -2,7 +2,9 @@
 
 Discord bot for collaborative worldbuilding and roleplay.
 
-**Status:** Active
+::: info Status: Fleshed Out ◐
+~9K lines of TypeScript across 22 source files. Core message pipeline operational with 16 LLM providers, entity-facts model, conditional logic, streaming, webhooks, onboarding, and usage quotas. 188 tests covering the expression evaluator. Remaining work is UX simplification and architecture streamlining rather than foundation building.
+:::
 
 ## Core Concept
 
