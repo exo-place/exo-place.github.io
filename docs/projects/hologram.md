@@ -3,7 +3,7 @@
 Discord bot for collaborative worldbuilding and roleplay.
 
 ::: info Status: Fleshed Out ◐
-~9K lines of TypeScript across 22 source files. Core message pipeline operational with 16 LLM providers, entity-facts model, conditional logic, streaming, webhooks, onboarding, and usage quotas. 188 tests covering the expression evaluator. Remaining work is UX simplification and architecture streamlining rather than foundation building.
+~9K lines of TypeScript across 22 source files. Core message pipeline operational with 17+ LLM providers, entity-facts model, expression language, streaming, webhooks, onboarding, and usage quotas. 188 tests covering the expression evaluator. Remaining work: prompt scaffolding cleanup, silent failure elimination, dynamic token allocation, zero-command start, shareable templates.
 :::
 
 ## Core Concept
@@ -23,11 +23,12 @@ Bind an entity to a Discord channel and it comes alive.
 
 ## Key Features
 
-- **Entity-facts model** — everything is an entity with a freeform text definition
-- **Conditional logic** — `$if` expressions for response control, random effects, time-based behavior
-- **Multi-character** — multiple entities bound to one channel, each responding via webhooks
-- **Streaming** — progressive LLM responses with configurable chunking
-- **Provider-agnostic** — Google, Anthropic, or OpenAI via AI SDK
+- **Entity-facts model** — everything is an entity with a freeform text definition, no rigid schemas
+- **Expression language** — `$if` conditionals, `$respond`/`$stream`/`$model` directives, Roll20 dice syntax, macros, 20+ built-in functions
+- **Multi-character** — multiple entities per channel via webhooks, XML tag parsing, freeform prose mode
+- **Streaming** — progressive responses with custom delimiters, per-chunk or full-message editing
+- **17+ LLM providers** — Google, Anthropic, OpenAI, Groq, Mistral, and more via AI SDK, with per-entity `$model` selection
+- **Access control** — per-entity permissions (`$edit`, `$view`, `$blacklist`), BYOK encryption, usage quotas
 
 ## Links
 
