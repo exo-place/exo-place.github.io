@@ -87,7 +87,7 @@ These prove that constraints aren't limitations — they're focusing functions. 
 | [hologram](https://github.com/exo-place/hologram) | Discord bot for collaborative worldbuilding — entities with text-based definitions |
 | [aspect](https://github.com/exo-place/aspect) | Card-based identity exploration sandbox — navigate and edit as primitives |
 
-## Relationship to rhi
+## Relationship to rhi and para
 
 exo-place projects are biomes that can grow on any substrate. They don't depend on rhi infrastructure, but they share sensibilities:
 
@@ -96,4 +96,10 @@ exo-place projects are biomes that can grow on any substrate. They don't depend 
 - Nix development environments
 - Conventional commits
 
-exo draws heavily from rhi's thinking on [why software is hard](https://docs.rhi.zone/why-software-is-hard), the [problems](https://docs.rhi.zone/problems) software creates and could address, and the [vision](https://docs.rhi.zone/vision) of what software could be instead. Where rhi builds the substrate — unifying fragmented domains through shared abstractions — exo builds the biomes: the places where people actually live, create, and connect.
+Three organizations, three concerns:
+
+- **[rhi](https://docs.rhi.zone)** — infrastructure. The substrate: tooling, libraries, protocols.
+- **exo** — places. Biomes and platforms where things can happen.
+- **[para](https://para-garden.github.io)** — things. Concrete games, experiences, and creative works that people encounter and inhabit.
+
+exo draws heavily from rhi's thinking on [why software is hard](https://docs.rhi.zone/why-software-is-hard), the [problems](https://docs.rhi.zone/problems) software creates and could address, and the [vision](https://docs.rhi.zone/vision) of what software could be instead. Where rhi builds the substrate — unifying fragmented domains through shared abstractions — exo builds the biomes: the places where people actually live, create, and connect. para tends the things that grow in those places.

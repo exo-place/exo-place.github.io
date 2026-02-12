@@ -12,15 +12,15 @@ exo-place builds biomes — non-infrastructure-dependent places to exist. Where 
 
 | Project | Path | Description |
 |---------|------|-------------|
-| **hologram** | `~/git/exo-place/hologram` | Discord bot for collaborative worldbuilding — entities with text-based definitions |
-| **aspect** | `~/git/exo-place/aspect` | Card-based identity exploration sandbox — navigate and edit as primitives |
+| **hologram** | `~/git/exoplace/hologram` | Discord bot for collaborative worldbuilding — entities with text-based definitions |
+| **aspect** | `~/git/exoplace/aspect` | Card-based identity exploration sandbox — navigate and edit as primitives |
 
 ### Org Resources
 
 | Resource | Path | Description |
 |----------|------|-------------|
-| **.github** | `~/git/exo-place/profile` | Org-wide GitHub config, templates |
-| **Docs site** | `~/git/exo-place/github-io` | This repo - org documentation |
+| **.github** | `~/git/exoplace/profile` | Org-wide GitHub config, templates |
+| **Docs site** | `~/git/exoplace/github-io` | This repo - org documentation |
 
 ## Responsibilities
 
@@ -38,9 +38,9 @@ When projects change:
 Template files are in `scaffolding/` directory. Copy and replace placeholders:
 
 ```bash
-cp -r scaffolding/. ~/git/exo-place/new-project/
-sed -i 's/PROJECT_NAME/new-project/g' ~/git/exo-place/new-project/flake.nix ~/git/exo-place/new-project/docs/package.json ~/git/exo-place/new-project/CLAUDE.md
-sed -i 's/PROJECT_DESCRIPTION/Description here/g' ~/git/exo-place/new-project/flake.nix ~/git/exo-place/new-project/CLAUDE.md
+cp -r scaffolding/. ~/git/exoplace/new-project/
+sed -i 's/PROJECT_NAME/new-project/g' ~/git/exoplace/new-project/flake.nix ~/git/exoplace/new-project/docs/package.json ~/git/exoplace/new-project/CLAUDE.md
+sed -i 's/PROJECT_DESCRIPTION/Description here/g' ~/git/exoplace/new-project/flake.nix ~/git/exoplace/new-project/CLAUDE.md
 ```
 
 **Included templates:**

@@ -8,11 +8,11 @@ Copy files to your new repo and replace placeholders:
 
 ```bash
 # Copy all scaffolding files
-cp -r scaffolding/. ~/git/exo-place/new-project/
+cp -r scaffolding/. ~/git/exoplace/new-project/
 
 # Replace placeholders
-sed -i 's/PROJECT_NAME/your-project/g' ~/git/exo-place/new-project/flake.nix ~/git/exo-place/new-project/docs/package.json ~/git/exo-place/new-project/CLAUDE.md
-sed -i 's/PROJECT_DESCRIPTION/Your description/g' ~/git/exo-place/new-project/flake.nix ~/git/exo-place/new-project/CLAUDE.md
+sed -i 's/PROJECT_NAME/your-project/g' ~/git/exoplace/new-project/flake.nix ~/git/exoplace/new-project/docs/package.json ~/git/exoplace/new-project/CLAUDE.md
+sed -i 's/PROJECT_DESCRIPTION/Your description/g' ~/git/exoplace/new-project/flake.nix ~/git/exoplace/new-project/CLAUDE.md
 ```
 
 ## Files Included
