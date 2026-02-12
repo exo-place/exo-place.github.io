@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "exo"
   text: "Places to exist."
-  tagline: "Non-infrastructure-dependent biomes for being."
+  tagline: "Room for your ideas to live."
   actions:
     - theme: brand
       text: Projects
