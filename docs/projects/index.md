@@ -4,3 +4,4 @@
 |---------|-------------|------------|
 | [hologram](/projects/hologram) | Discord bot for collaborative worldbuilding | Entity, Fact, Bind |
 | [aspect](/projects/aspect) | Card-based identity exploration sandbox | Card, Navigate, Edit |
+| [noncanon](/projects/noncanon) | Local-first collaborative worldbuilding | World, Object, Canon |

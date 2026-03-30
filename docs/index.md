@@ -17,4 +17,7 @@ features:
   - title: "aspect ◔"
     details: Identity exploration sandbox. Card-based existence where the primitives are navigate and edit.
     link: /projects/aspect
+  - title: "noncanon ○"
+    details: Local-first collaborative worldbuilding. Canon is what you choose to pull in — divergence is a feature.
+    link: /projects/noncanon
 ---

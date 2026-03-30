@@ -14,6 +14,7 @@ export default defineConfig({
         items: [
           { text: 'Hologram', link: 'https://docs.exo.place/hologram/' },
           { text: 'Aspect', link: 'https://docs.exo.place/aspect/' },
+          { text: 'noncanon', link: 'https://docs.exo.place/noncanon/' },
         ]
       },
     ],
@@ -31,6 +32,7 @@ export default defineConfig({
           items: [
             { text: 'Hologram', link: '/projects/hologram' },
             { text: 'Aspect', link: '/projects/aspect' },
+            { text: 'noncanon', link: '/projects/noncanon' },
           ]
         },
         {
