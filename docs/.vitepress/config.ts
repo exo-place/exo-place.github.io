@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'exo',
   description: 'Places to exist',
+  srcExclude: ['**/CLAUDE.md'],
 
   themeConfig: {
     nav: [
@@ -51,5 +53,10 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+
+    editLink: {
+      pattern: 'https://github.com/exo-place/github-io/edit/master/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
   },
-})
+}))
